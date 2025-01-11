@@ -1,0 +1,29 @@
+{
+  "k3s_version": "v1.24.6+k3s1",
+  "machines": [
+    {
+      "username": "ubuntu",
+      "node_name": "controler",
+      "ip": "192.168.0.151",
+      "is_controller": 1
+    },
+    {
+      "username": "ubuntu",
+      "node_name": "agent2",
+      "ip": "192.168.0.102",
+      "is_controller": 0
+    },
+    {
+      "username": "ubuntu",
+      "node_name": "agent3",
+      "ip": "192.168.0.103",
+      "is_controller": 0
+    },
+    {
+      "username": "ubuntu",
+      "node_name": "controller1",
+      "ip": "192.168.0.150",
+      "is_controller": 1
+    }
+  ]
+}

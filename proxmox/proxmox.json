@@ -1,0 +1,25 @@
+{
+  "px_login": "root",
+  "px_host": "192.168.0.10",
+  "node": "pve1",
+  "template_id": "149",
+  "controllers":
+  [
+    {
+      "id": "153",
+      "name": "k3s-test1",
+      "username": "ubuntu",
+      "cores": "1",
+      "memory": "2048",
+      "disk_gb": "16"
+    },
+    {
+      "id": "154",
+      "name": "k3s-test2",
+      "username": "ubuntu",
+      "cores": "1",
+      "memory": "2048",
+      "disk_gb": "16"
+    }
+  ]
+}
