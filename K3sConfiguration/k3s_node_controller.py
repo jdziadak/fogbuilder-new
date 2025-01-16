@@ -50,7 +50,7 @@ class K3sControllerNode(K3sNode):
         self.ssh.command("rm -rf deployments")
         self.ssh.command("mkdir deployments")
 
-        deployment_directories = ['couchdb', 'kafka', 'node-red', 'scripts']
+        deployment_directories = ['scripts']
         for dir in deployment_directories:
             self.ssh.command(f"mkdir deployments/{dir}")
             for file in os.listdir(f"deployments/{dir}"):
